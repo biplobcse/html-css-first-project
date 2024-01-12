@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('./img/blue-2721435_640.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: 'Your Preferred Font', sans-serif;
+            background-attachment: fixed;
+        }
+
+        h6 {
+            background-color: rgb(255, 9, 177);
+            font-size: 24px;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding:20px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 40, 144);
+            height: auto;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        img {
+            width: 400px;
+            height: 500px;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            margin: 20px;
+            padding: 20px;
+            text-shadow: 10px;
+            background-color: rgba(225, 255, 0, 0.664);
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 24px;
+            margin: 10px;
+            color: white;
+        }
+
+        span {
+            background-color: rgb(255, 14, 219);
+            tab-size: 20px;
+        }
+
+        button {
+            background-color: rgb(182, 24, 193);
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(225, 255, 0, 0.664);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h6>MEMORIES WITH FRIENDS</h6>
+    <h4 id="biplob">WELCOME TO OUR WEBSITE</h4>
+    <img src="./img/413011638_1678669062660378_4976283850151790746_n-removebg-preview.png" alt="Image">
+    <h1>NAHID HASAN</h1>
+    <h3>CONTACT: 01886324523 </h3>
+    <a href="https://www.facebook.com/profile.php?id=100014983607950" target="_blank">
+        <button type="button">Facebook</button>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100015519011803" target="_blank">
+        <button type="button">WhatsApp</button>
+    </a>
+    <h1>BIPLOB HASAN BPU</h1>
+    <h3>CONTACT: 01759597291</h3>
+    <a href="https://www.facebook.com/profile.php?id=100015519011803" target="_blank">
+        <button type="button">Facebook</button>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100015519011803" target="_blank">
+        <button type="button">WhatsApp</button>
+    </a>
+    <h1>SUPTO KUMER SARKER</h1>
+    <h3>CONTACT: 01834-758140</h3>
+    <a href="https://www.facebook.com/supto.kumar.75" target="_blank">
+        <button type="button">Facebook</button>
+    </a>
+    <a href="https://www.facebook.com/supto.kumar.75" target="_blank">
+        <button type="button">WhatsApp</button>
+    </a>
+    <h1 id="biplob">ABOUT</h1>
+    <p>
+        Website - Wikipedia
+        A website (also written as a web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social networking.
+    </p>
+    <script>
+        let colors = ["white", "red", "yellow", "purple"], i = 0;
+        setInterval(() => {
+            document.getElementById("biplob").style.color = colors[i];
+            i++;
+            if (i > 3) {
+                i = 0;
+            }
+        }, 100);
+    </script>
+</body>
+</html>
